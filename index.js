@@ -21,7 +21,7 @@ function deepestChild(){
   // var inTooDeep = [];
   var inTooDeep = document.getElementById('grand-node').querySelectorAll("div");
   // console.log(inTooDeep.innerText);
-  return inTooDeep.innerText;
+  return inTooDeep.innerHTML;
   // let current = inTooDeep;
   // let next = [];
   // let isitaString = n => (typeof n === 'string');
