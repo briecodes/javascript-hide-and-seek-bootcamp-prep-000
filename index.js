@@ -18,8 +18,8 @@ function increaseRankBy(n){
 }
 
 function deepestChild(){
-  var inTooDeep = [];
-  inTooDeep = document.getElementById('grand-node').querySelectorAll("div");
+  // var inTooDeep = [];
+  var inTooDeep = document.getElementById('grand-node').querySelectorAll("div");
   let current = inTooDeep;
   let next = [];
   let isitaString = n => (typeof n === 'string');
