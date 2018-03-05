@@ -20,7 +20,7 @@ function increaseRankBy(n){
 function deepestChild(){
   // var inTooDeep = [];
   var inTooDeep = document.getElementById('grand-node').querySelectorAll("div");
-  console.log(inTooDeep.)
+  console.log(inTooDeep.innerText);
   // let current = inTooDeep;
   // let next = [];
   // let isitaString = n => (typeof n === 'string');
